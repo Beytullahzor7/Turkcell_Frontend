@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beytullah Zor Turkcell">
+    <title>Homework 5</title>
+    <link rel="stylesheet" href="./odev5.css">
+</head>
+
+<body>
+    <!-- start code -->
+    <form action="odev5.html" method="get" autocomplete="on">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="your name" required autofocus />
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="your email" required autofocus />
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" required autofocus />
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" />
+            <label for="other">Other</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="language">language</label>
+            <select name="language" id="data">
+                <option value="0">Select Language</option>
+                <option value="english">English</option>
+                <option value="turkish">Turkish</option>
+                <option value="german">German</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode" name="zipcode" required autofocus />
+        </div>
+
+        <br>
+
+        <div>
+            <label for="about">About:</label><br>
+            <textarea name="" id="" cols="4" rows="4">Write about yourself...</textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+    <!-- end code -->
+</body>
+
+</html>
